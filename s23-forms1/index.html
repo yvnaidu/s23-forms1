@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms1</title> 
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Personal Details</legend>
+            <div>
+                <label>First Name</label>
+            </div>
+
+            <div>
+               <label>Last Name</label>
+               <input>
+            </div>
+
+            <div>
+                <label>Date of birth</label>
+                <input placeholder="dd-mm-yyyy">
+            </div>
+
+            <div>
+                <label>Gender</label>
+                <input list="Genderlist"/>
+                <datalist id="Genderlist">
+                    <option value="Male"></option>
+                    <option value="Female"></option>
+                    <option value="Others"></option>
+
+                </datalist>
+            </div>
+
+            <div>
+                <label>Mobile number</label>
+                <input>
+            </div>
+            
+            <div>
+                <label>Mail ID</label>
+            </div>
+
+            <div>
+                <label>Address</label>
+                <textarea></textarea>
+            </div>
+            <div>
+                <label>State</label>
+                <select>
+                    <optgroup label="Northern India">
+                        <option>Jammu&Kashmir</option>
+                        <option>Himachal Pradesh</option>
+                    </optgroup>
+                    <optgroup label="Western India">
+                        <option>Gujarat</option>
+                        <option>Rajasthan</option>
+                    </optgroup>
+                    <optgroup label="Eastern India">
+                        <option>West Bengal</option>
+                        <option>Bihar</option>
+                    </optgroup>
+                    <optgroup label="Southern India">
+                        <option>Andhrapradesh</option>
+                        <option>Telangana</option>
+                    </optgroup>
+                </select>
+
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>SocialMedia Details</legend>
+              <div>
+                <label>Instragram ID</label>
+                <input>
+            </div>
+            <div>
+                <label>Facebook ID</label>
+                <input>
+            </div>
+            <div>
+                <label>Linkedin ID</label>
+                <input>
+            </div>
+            <div>
+                <label>Twitter ID</label>
+                <input>
+            </div>
+
+        </fieldset>
+        <div>
+            <button type="Submit">Submit</button>
+            <button type="Reset">Reset</button>
+            <button type="Button">Button</button>
+            
+        </div>
+    </form>
+    
+</body>
+</html>
